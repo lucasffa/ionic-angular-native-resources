@@ -1,0 +1,7 @@
+{
+  "name": "ionic-angular-native-resources",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}

@@ -1,14 +1,15 @@
 <ion-header>
   <ion-toolbar>
     <ion-title>
-      Camera App
+      Aplicativo de Câmera
     </ion-title>
   </ion-toolbar>
 </ion-header>
 
 <ion-content class="ion-padding">
-  <ion-button (click)="takePhoto()">Take Photo</ion-button>
+  <ion-button (click)="takePhoto()">Tire uma foto</ion-button>
   <div *ngIf="photo">
     <img [src]="photo" />
   </div>
+  <p>Feito por: Lucas de Almeida</p>
 </ion-content>

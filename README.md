@@ -74,6 +74,11 @@ Abra o projeto Android no Android Studio:
 npx cap open android
 ```
 
+Ou, se deseja realizar Live Reload:
+```sh
+ionic cap run android -l --external
+```
+
 ### 9. Executar a Aplicação no Android
 
 Conecte um dispositivo Android ou inicie um emulador, e então clique em "Run" no Android Studio para instalar e executar a aplicação no dispositivo.
